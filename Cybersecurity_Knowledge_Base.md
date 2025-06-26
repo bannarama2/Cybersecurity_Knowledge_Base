@@ -205,10 +205,27 @@ sudo find / -name "passwd" 2>/dev/null
 
 ## 📚 8. Learning Resources
 
-- 🔗 [TryHackMe](https://tryhackme.com/)
-- 🔗 [HackTricks](https://book.hacktricks.xyz/)
-- 🔗 [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
-- 🔗 [GTFOBins](https://gtfobins.github.io/)
+- 🔗 [TryHackMe](https://tryhackme.com/)  
+  Guided cybersecurity labs and hands-on hacking exercises.
+
+- 🔗 [HackTricks](https://book.hacktricks.xyz/)  
+  A comprehensive hacking encyclopedia with practical tips and tricks.
+
+- 🔗 [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)  
+  A collection of useful payloads and bypass techniques for web, privilege escalation, and more.
+
+- 🔗 [GTFOBins](https://gtfobins.github.io/)  
+  Exploitable Unix binaries for privilege escalation and command execution.
+
+- 🔗 [Censys](https://search.censys.io/)  
+  Search engine for internet-connected devices and services, useful for recon and attack surface discovery.
+
+- 🔗 [VirusTotal](https://www.virustotal.com/gui/home/upload)  
+  Multi-antivirus file and URL scanning service for analyzing potentially malicious content.
+
+- 🔗 [Shodan](https://www.shodan.io/)  
+  Search engine for internet-connected devices and open ports; powerful for reconnaissance.
+
 
 ---
 
