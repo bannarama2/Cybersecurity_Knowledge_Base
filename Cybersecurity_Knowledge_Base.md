@@ -37,7 +37,7 @@ enum4linux -a [IP]
 
 ### 🔹 Web Directory Enumeration
 ```sh
-gobuster dir -u http://[target] -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,txt,html -o gobusterResults.txt
+gobuster dir -u http://[target] -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,txt,html,js -o gobusterResults.txt
 ```
 
 ---
