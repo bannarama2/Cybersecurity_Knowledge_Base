@@ -42,7 +42,8 @@ gobuster dir -u http://[target] -w /usr/share/wordlists/dirbuster/directory-list
 
 ### 🔹 Sub Domain Enumeration
 ```sh
-gobuster dns -d futurevera.thm -w /usr/share/wordlists/dnsWordlist/Top1000-Subdomains.txt -o gobusterDnsResults.txt
+gobuster dns -d [target] -w /usr/share/wordlists/dnsWordlist/Top1000-Subdomains.txt -o gobusterDnsResults.txt
+ffuf -u [target] -H "Host: FUZZ.[target]" -w /usr/share/wordlists/dnsWordlist/Top1000-Subdomains.txt
 ```
 
 ---
