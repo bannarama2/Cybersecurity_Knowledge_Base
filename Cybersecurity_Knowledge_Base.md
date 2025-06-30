@@ -40,6 +40,11 @@ enum4linux -a [IP]
 gobuster dir -u http://[target] -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,txt,html,js -o gobusterResults.txt
 ```
 
+### 🔹 Sub Domain Enumeration
+```sh
+gobuster dns -d futurevera.thm -w /usr/share/wordlists/dns/subdomains-topMillion.txt
+```
+
 ---
 
 ## 💥 3. Exploitation
