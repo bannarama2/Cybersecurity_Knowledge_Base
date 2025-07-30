@@ -212,7 +212,11 @@ sudo find / -name "passwd" 2>/dev/null
 ## Python httpServer
 
 ```sh
+# Localhost access only
 python3 -m http.server 8000
+
+# LAN access
+python3 -m http.server 8000 --bind 0.0.0.0
 ```
 
 ---
