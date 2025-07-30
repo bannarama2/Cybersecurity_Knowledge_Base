@@ -209,6 +209,14 @@ sudo find / -name "passwd" 2>/dev/null
 
 ---
 
+## Python httpServer
+
+```sh
+python3 -m http.server 8000
+```
+
+---
+
 ## 📚 8. Learning Resources
 
 - 🔗 [TryHackMe](https://tryhackme.com/)  
