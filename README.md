@@ -18,3 +18,5 @@ Clone the repo and use it in Obsidian or VS Code for quick reference during lear
 
 ## 🔗 Credits
 Inspired by TryHackMe, HackTricks, and PayloadsAllTheThings.
+
+## 📝 Updated alongside my progress
